@@ -59,7 +59,11 @@ function ReleaseInfo() {
   return (
     <div className='bg-[#168DDD] h-11 mt-14 mx-9 rounded-t-md text-white px-7 flex items-center font-fira justify-between'>
       <div className='text-xl font-bold'>Latest Release</div>
-      <div className='bg-[#222222] px-2 py-1 rounded-sm text-sm'>View All</div>
+      <div className='bg-[#222222] px-2 py-1 rounded-sm text-sm'>
+        <a href='https://chia-anime.su/anime/?status=&type=&order=update'>
+          View All
+        </a>
+    </div>
     </div>
   );
 }
