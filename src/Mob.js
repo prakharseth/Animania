@@ -68,7 +68,18 @@ function Navbar() {
         </span>
       </div>
       <div className='bg-[#17151B] h-8 w-60 rounded'>
-        <div className='text-base font-fira px-4 pt-1'>Search...</div>
+        <div className='text-white font-fira pl-8 py-1 text-base relative'>
+          <input
+            type='text'
+            placeholder='Search...'
+            className='bg-[#17151B] w-full font-medium font-rock outline-none'
+          />
+          <img
+            className='absolute right-3 top-1 w-6'
+            src={search}
+            alt='search'
+          />
+        </div>
       </div>
     </div>
   );
