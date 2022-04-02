@@ -19,8 +19,17 @@ function Header() {
     <div className='bg-[#0B0A0D] h-92 flex items-center justify-between'>
       <img className='pl-6 py-2' src={Logo} alt='logo' />
       <div className='bg-[#17151B] mr-8 w-80  rounded-md '>
-        <div className='text-white font-fira pl-8 py-2 text-base'>
-          Search...
+        <div className='text-white font-fira pl-8 py-2 text-base relative'>
+          <input
+            type='text'
+            placeholder='Search...'
+            className='bg-[#17151B] w-full font-medium font-rock outline-none'
+          />
+          <img
+            className='absolute right-3 top-2 w-6'
+            src={search}
+            alt='search'
+          />
         </div>
       </div>
     </div>
